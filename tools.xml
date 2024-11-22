@@ -12,7 +12,7 @@
   </implementation>
   <entry-point command="run" binary-name="Procmon64" />
   <entry-point command="procexp" binary-name="procexp">
-    <name xml:lang="en">Process Explorer1</name>
+    <name xml:lang="en">Process Explorer</name>
     <summary xml:lang="en">Sysinternals Process Explorer</summary>
   </entry-point>
 </interface>
