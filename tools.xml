@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://raw.githubusercontent.com/senthilrat/feeds/refs/heads/main/tools.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Sysinternals Procmon</name>
+  <summary xml:lang="en">Process Monitor</summary>
+  <category>tools</category>
+  <implementation arch="Windows-x86_64" version="3.85" id="sha256new_RHRQS6IFLQOBMPOF5A7A32MYJKWBVUX6FPJCNKFNQGZCSUFJTO3Q">
+    <command name="run" path="Procmon64.exe" />
+    <command name="procexp" path="procexp.exe" />
+    <manifest-digest sha256new="RHRQS6IFLQOBMPOF5A7A32MYJKWBVUX6FPJCNKFNQGZCSUFJTO3Q" />
+    <archive href="https://github.com/senthilrat/zeroinstall/archive/refs/heads/main.zip" size="4190880" type="application/zip" extract="zeroinstall-main" />
+  </implementation>
+  <entry-point command="run" binary-name="Procmon64" />
+  <entry-point command="procexp" binary-name="procexp">
+    <name xml:lang="en">Process Explorer</name>
+    <summary xml:lang="en">Sysinternals Process Explorer</summary>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJnQENmAAoJEDL2+6kU7/FxjcUH/1k/5vVTLe2w+dCF8I/4rCBh0vdij/IdZ4ReNEzWGQAkLXFNAxzz5M/vP5LDaB2kE+0zW+YYHsO+88OhC/sd1vUHuJiuUqfTsvcsBsxNzX1wuhOrB5Oxr5UUw7ElsaFGjZwiqcB2JK0w0aQBe7SqZWsbdA/N0Xu9D7KvUupygOWggiuaQzwVkRs7ITUy+QoRghBt/+NjC2XrSkMn8N8Mhdb1JozrqaX6fQuCygJwXI2I9LnyyX3EO0UVCA/AvdrzA+2HI3Zhv7i5vbP+aqrDYL2CPV+8j1y/MWXf8vozNS+u3QMzY8lRSuTmsxKvvNT8THGXwcFK6zt0xhT0Z0QADd8=
+
+-->
